@@ -66,6 +66,15 @@ ol {
   object-fit: cover;
 }
 
+.result__video:focus {
+  outline: none;
+}
+
+.result__video:focus-visible {
+  outline: 1px solid #FFF;
+  outline-offset: 1px;
+}
+
 .search-form {
   display: flex;
   justify-content: space-between;
