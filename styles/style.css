@@ -64,6 +64,7 @@ ol {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .result__video:focus {
@@ -142,7 +143,7 @@ ol {
   display: flex;
   width: 225px;
   align-items: center;
-  color: rgba(255, 255, 255, 0.70);
+  color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   appearance: none;
@@ -151,6 +152,10 @@ ol {
   border-left: 0;
   border-right: 0;
   background-color: #1b1919;
+}
+
+.search-form__textfield::placeholder {
+  color: rgba(255, 255, 255, 0.70);
 }
 
 .search-form__textfield:focus {
@@ -261,6 +266,10 @@ ol {
   margin-bottom: 30px;
 }
 
+.content__list .content__list-item:last-child{
+  margin-bottom: 0;
+}
+
 .content__card-link {
   color: #FFF;
   text-decoration: none;
@@ -301,6 +310,8 @@ ol {
   width: 194px;
   height: 103px;
   flex-shrink: 0;
+  object-fit: cover;
+  object-position: center;
 }
 
 .more-button {
