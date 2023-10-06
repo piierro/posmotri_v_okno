@@ -45,6 +45,8 @@ ol {
   display: flex;
   gap: 30px;
   align-items: flex-end;
+  margin-bottom: 70px;
+  margin-left: 30px;
 }
 
 .result {
